@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="Escribe a Patitas Felices para consultar por productos, ofertas y compras.">
+  <title>Contacto | Patitas Felices</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="top">
+<div class="barra-aviso" role="region" aria-label="Aviso de la tienda"><span>Un hogar más feliz empieza con su bienestar.</span><a href="catalogo.html">Volver al catálogo <span aria-hidden="true">→</span></a></div>
+<header><nav class="navbar" aria-label="Navegación principal">
+  <a href="index.html" class="logo" aria-label="Patitas Felices, inicio"><img src="img/logo-small.png" alt="Patitas Felices"></a>
+  <ul id="menu"><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="como-comprar.html">Cómo comprar</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="mision-vision.html">Nuestro propósito</a></li></ul>
+</nav></header>
+<main>
+  <section class="contenedor">
+    <div class="seccion-intro"><span class="sobretitulo">ESTAMOS PARA AYUDARTE</span><h1 class="titulo">Escríbenos</h1><p>Completa tus datos y cuéntanos qué necesitas. La consulta se enviará por WhatsApp.</p></div>
+    <form id="formulario-contacto" class="formulario-contacto">
+      <div class="contacto-intro"><h2>Tu consulta</h2><p>Responderemos para confirmar información, precio y disponibilidad.</p></div>
+      <label for="contacto-nombre">Nombre completo</label><input id="contacto-nombre" name="nombre" type="text" autocomplete="name" maxlength="100" required>
+      <label for="contacto-correo">Correo electrónico</label><input id="contacto-correo" name="correo" type="email" autocomplete="email" maxlength="150" required>
+      <label for="contacto-telefono">Teléfono <span>(opcional)</span></label><input id="contacto-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9()+ -]{7,20}" title="Ingresa un teléfono válido, usando números, espacios o +()-." maxlength="20">
+      <label for="contacto-tema">Asunto</label><input id="contacto-tema" name="tema" type="text" maxlength="120" required>
+      <label for="contacto-mensaje">Mensaje</label><textarea id="contacto-mensaje" name="mensaje" rows="5" maxlength="1000" required></textarea>
+      <p class="contacto-aviso">Este formulario no envía un correo automático ni realiza cobros: abrirá WhatsApp con los datos para que confirmes el envío de tu consulta.</p>
+      <button class="btn btn-verde" type="submit">Continuar por WhatsApp <span aria-hidden="true">→</span></button>
+      <p id="contacto-estado" class="contacto-estado" role="status" hidden></p>
+    </form>
+  </section>
+</main>
+<footer><div class="footer-cols">
+  <div class="footer-marca"><a href="index.html" class="logo"><img src="img/logo-small.png" alt="Patitas Felices"></a><p>Todo lo que necesita para sentirse querido, cuidado y feliz.</p></div>
+  <div><h3>Explora</h3><a href="catalogo.html">Todos los productos</a><a href="nosotros.html">Nuestra tienda</a><a href="mision-vision.html">Nuestro propósito</a></div>
+  <div><h3>Tu compra</h3><a href="como-comprar.html">Cómo comprar</a><a href="catalogo.html">Consultar productos</a></div>
+  <div><h3>Hablemos</h3><p>Lima, Perú</p><a href="tel:+51969672510">969 672 510</a><a href="contacto.html?tema=Consulta%20general">Escríbenos</a></div>
+</div><div class="footer-base"><p class="copy">© 2026 Patitas Felices. Todos los derechos reservados.</p><a href="#top" class="volver-arriba">Volver arriba ↑</a></div></footer>
+<script src="contacto.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="Explora alimentos, juguetes y productos de cuidado para mascotas en Patitas Felices.">
+  <title>Catálogo | Patitas Felices</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="top">
+<div class="barra-aviso" role="region" aria-label="Aviso de la tienda"><span>Un hogar más feliz empieza con su bienestar.</span><a href="como-comprar.html">Cómo comprar <span aria-hidden="true">→</span></a></div>
+<header><nav class="navbar" aria-label="Navegación principal">
+  <a href="index.html" class="logo" aria-label="Patitas Felices, inicio"><img src="img/logo-small.png" alt="Patitas Felices"></a>
+  <ul id="menu"><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html" class="activo" aria-current="page">Catálogo</a></li><li><a href="como-comprar.html">Cómo comprar</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="mision-vision.html">Nuestro propósito</a></li><li><a class="carrito" href="#carrito">Carrito <span id="contador-carrito" class="contador-carrito" aria-label="0 productos">0</span></a></li></ul>
+</nav></header>
+<main>
+  <section class="contenedor">
+    <div class="encabezado-catalogo"><div><span class="sobretitulo">ELEGIDOS PARA ELLOS</span><h1 class="titulo">Lo que les hace bien.</h1><p>Alimentos, higiene, descanso, ropa y accesorios para su vida diaria.</p></div><a class="btn" href="como-comprar.html">Cómo comprar <span aria-hidden="true">→</span></a></div>
+    <p class="nota-catalogo">Los precios publicados son referenciales. Escríbenos para confirmar precio y disponibilidad antes de coordinar tu compra.</p>
+    <nav class="filtros-estaticos" aria-label="Categorías del catálogo"><a href="#ofertas">Ofertas</a><a href="#alimentos">Alimentos</a><a href="#juguetes">Juguetes</a><a href="#cuidado">Cuidado</a><a href="#limpieza">Limpieza</a><a href="#descanso">Descanso</a><a href="#ropa">Ropa</a><a href="#disfraces">Disfraces</a><a href="#accesorios">Accesorios</a></nav>
+    <section class="buscador-catalogo" aria-labelledby="buscador-titulo"><div><span class="sobretitulo">BUSCA Y PREGUNTA</span><h2 id="buscador-titulo">¿Qué necesita tu mascota?</h2><p>Elige una sugerencia y envíanos tu consulta por WhatsApp para confirmar opciones y disponibilidad.</p></div><form action="https://wa.me/51969672510" method="get"><label class="solo-lectores" for="buscar-producto">Nombre o tipo de producto</label><input id="buscar-producto" name="text" type="search" list="productos-sugeridos" placeholder="Ej.: alimento, arena, collar..." required><datalist id="productos-sugeridos"><option value="Alimento para perro"><option value="Alimento para gato"><option value="Snacks para mascotas"><option value="Arena sanitaria para gato"><option value="Shampoo para perro"><option value="Cama para mascota"><option value="Rascador para gato"><option value="Ropa para perro"><option value="Disfraz para mascota"><option value="Collar para perro"></datalist><button class="btn" type="submit">Consultar por WhatsApp <span aria-hidden="true">→</span></button></form></section>
+    <section class="ofertas-catalogo" id="ofertas"><div><span class="sobretitulo">OFERTAS Y COMBOS</span><h2>Consulta las promociones vigentes</h2><p>Las ofertas, precios y disponibilidad pueden variar. Escríbenos para conocer las opciones actuales.</p></div><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20ofertas%20y%20combos">Consultar ofertas <span aria-hidden="true">→</span></a></section>
+    <div class="productos">
+      <article class="producto" id="alimentos"><div class="img-producto"><img src="img/productos/producto-1.jpg" alt="Alimento para perro 5 kg" loading="lazy"></div><p class="etiqueta-producto">Alimento para perro</p><h2>Alimento para perro 5 kg</h2><p>Croquetas nutritivas para perros adultos.</p><p class="precio">S/ 85.90</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20alimento%20para%20perro">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto"><div class="img-producto"><img src="img/productos/producto-gato-comiendo.jpg" alt="Gato comiendo alimento de su plato" loading="lazy"></div><p class="etiqueta-producto">Alimento para gato</p><h2>Alimento para gato 3 kg</h2><p>Sabor pescado, ideal para gatos.</p><p class="precio">S/ 62.50</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20alimento%20para%20gato">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto" id="juguetes"><div class="img-producto"><img src="img/productos/producto-3.jpg" alt="Hueso de goma rojo para perro" loading="lazy"></div><p class="etiqueta-producto">Juguete para perro</p><h2>Hueso de goma</h2><p>Juguete resistente para morder y jugar.</p><p class="precio">S/ 12.00</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20hueso%20de%20goma">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto"><div class="img-producto"><img src="img/productos/producto-rascador.jpg" alt="Gato usando un rascador de cuerda" loading="lazy"></div><p class="etiqueta-producto">Accesorio para gato</p><h2>Rascador para gatos</h2><p>Un espacio para estirarse y afilar sus uñas.</p><p class="precio">S/ 120.00</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20rascador">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto" id="accesorios"><div class="img-producto"><img src="img/productos/producto-collar.jpg" alt="Perro con collar ajustable" loading="lazy"></div><p class="etiqueta-producto">Accesorio para perro</p><h2>Collar ajustable</h2><p>Consulta tallas y colores disponibles.</p><p class="precio">S/ 15.50</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20collar%20para%20perro">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto" id="descanso"><div class="img-producto"><img src="img/productos/producto-cama.jpg" alt="Perro descansando en una cama acolchada" loading="lazy"></div><p class="etiqueta-producto">Descanso</p><h2>Cama suave mediana</h2><p>Cama acolchada para su espacio de descanso.</p><p class="precio">S/ 75.00</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20cama%20suave">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto" id="cuidado"><div class="img-producto"><img src="img/productos/producto-shampoo.jpg" alt="Frasco de shampoo para perro junto a un perro" loading="lazy"></div><p class="etiqueta-producto">Higiene y cuidado</p><h2>Shampoo hipoalergénico</h2><p>Para la rutina de baño y cuidado del pelaje.</p><p class="precio">S/ 22.00</p><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20por%20shampoo">Consultar producto <span aria-hidden="true">→</span></a></article>
+      <article class="producto" id="ropa"><div class="img-producto"><img src="img/productos/producto-8.jpg" alt="Perro usando una prenda amarilla" loading="lazy"></div><p class="etiqueta-producto">Ropa para mascotas</p><h2>Ropa de abrigo para perro, talla M</h2><p>Precio referencial para talla M; otras tallas pueden variar.</p><p class="precio">S/ 39.90</p><a class="btn" href="#carrito">Agregar al carrito <span aria-hidden="true">+</span></a></article>
+      <article class="producto" id="limpieza"><div class="img-producto"><img src="img/productos/producto-arena.jpg" alt="Gato junto a su bandeja sanitaria" loading="lazy"></div><p class="etiqueta-producto">Limpieza felina</p><h2>Arena sanitaria, bolsa de 5 kg</h2><p>Presentación referencial de 5 kg para gatos.</p><p class="precio">S/ 24.90</p><a class="btn" href="#carrito">Agregar al carrito <span aria-hidden="true">+</span></a></article>
+      <article class="producto"><div class="img-producto"><img src="img/productos/producto-snacks.jpg" alt="Premios de alimento seco para perros" loading="lazy"></div><p class="etiqueta-producto">Premios y snacks</p><h2>Snacks para mascotas, bolsa de 100 g</h2><p>Presentación referencial de 100 g.</p><p class="precio">S/ 12.00</p><a class="btn" href="#carrito">Agregar al carrito <span aria-hidden="true">+</span></a></article>
+      <article class="producto" id="disfraces"><div class="img-producto"><img src="img/productos/producto-disfraz.jpg" alt="Perro pequeño usando pijama estampada" loading="lazy"></div><p class="etiqueta-producto">Disfraces y ropa</p><h2>Disfraz para mascota, talla M</h2><p>Precio referencial para talla M; otros tamaños pueden variar.</p><p class="precio">S/ 49.90</p><a class="btn" href="#carrito">Agregar al carrito <span aria-hidden="true">+</span></a></article>
+      <article class="producto"><div class="img-producto"><img src="img/productos/producto-snacks.jpg" alt="Plato de acero inoxidable para mascotas" loading="lazy"></div><p class="etiqueta-producto">Accesorios de alimentación</p><h2>Plato de acero inoxidable mediano</h2><p>Tamaño mediano; consulta disponibilidad de otros tamaños.</p><p class="precio">S/ 18.90</p><a class="btn" href="#carrito">Agregar al carrito <span aria-hidden="true">+</span></a></article>
+    </div>
+    <section id="carrito" class="carrito-catalogo" aria-labelledby="carrito-titulo">
+      <div class="encabezado-seccion"><div><span class="sobretitulo">TU COMPRA</span><h2 id="carrito-titulo" class="titulo">Carrito de compras</h2><p>Revisa las cantidades y el total antes de coordinar tu pedido.</p></div></div>
+      <p id="carrito-vacio" class="carrito-vacio">Tu carrito aún está vacío. Agrega productos del catálogo para ver el total.</p>
+      <div class="tabla-scroll"><table id="tabla-carrito" class="tabla tabla-carrito" hidden>
+        <thead><tr><th scope="col">Producto</th><th scope="col">Precio</th><th scope="col">Cantidad</th><th scope="col">Subtotal</th><th scope="col"><span class="solo-lectores">Acciones</span></th></tr></thead>
+        <tbody id="carrito-productos"></tbody>
+        <tfoot><tr class="fila-total"><th colspan="3" scope="row">Total</th><td id="carrito-total">S/ 0.00</td><td></td></tr></tfoot>
+      </table></div>
+      <div class="acciones-carrito"><button id="vaciar-carrito" class="btn btn-gris" type="button" disabled>Vaciar carrito</button><button id="finalizar-carrito" class="btn btn-verde" type="button" disabled>Continuar con la compra <span aria-hidden="true">→</span></button></div>
+      <form id="formulario-pedido" class="formulario-pedido" hidden>
+        <div class="formulario-pedido-intro"><h3>Datos para coordinar tu pedido</h3><p>Te contactaremos para confirmar disponibilidad, envío y pago antes de cerrar la compra.</p></div>
+        <label for="cliente-nombre">Nombre completo</label><input id="cliente-nombre" name="nombre" type="text" autocomplete="name" maxlength="100" required>
+        <label for="cliente-telefono">Teléfono de contacto</label><input id="cliente-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9()+ -]{7,20}" title="Ingresa un teléfono válido, usando números, espacios o +()-." required>
+        <label for="cliente-correo">Correo electrónico <span>(opcional)</span></label><input id="cliente-correo" name="correo" type="email" autocomplete="email">
+        <label for="metodo-entrega">¿Cómo deseas recibirlo?</label><select id="metodo-entrega" name="entrega" required><option value="">Selecciona una opción</option><option value="Recojo en tienda">Recojo en tienda</option><option value="Envío a domicilio">Envío a domicilio</option></select>
+        <fieldset id="datos-direccion" class="datos-direccion" hidden><legend>Dirección de entrega</legend><label for="cliente-direccion">Dirección</label><input id="cliente-direccion" name="direccion" type="text" autocomplete="street-address" maxlength="180"><label for="cliente-distrito">Distrito</label><input id="cliente-distrito" name="distrito" type="text" autocomplete="address-level2" maxlength="80"></fieldset>
+        <label for="metodo-pago">Método de pago preferido</label><select id="metodo-pago" name="pago" required><option value="">Selecciona una opción</option><option value="Por coordinar con la tienda">Por coordinar con la tienda</option><option value="Transferencia (sujeta a confirmación)">Transferencia (sujeta a confirmación)</option><option value="Otro (detallado en observaciones)">Otro (detallado en observaciones)</option></select>
+        <label for="pedido-notas">Indicaciones <span>(opcional)</span></label><textarea id="pedido-notas" name="indicaciones" rows="3" maxlength="400" placeholder="Referencias de entrega u otra información"></textarea>
+        <p class="aviso-pedido">El total mostrado no incluye envío. La tienda confirmará existencias, importe final y forma de pago por WhatsApp; completar este formulario no realiza un cobro.</p>
+        <button class="btn btn-verde" type="submit">Enviar solicitud de pedido por WhatsApp <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="nota-total">Importes en soles. Envío y disponibilidad se confirman al coordinar el pedido.</p>
+      <p id="carrito-anuncio" class="solo-lectores" aria-live="polite"></p>
+    </section>
+    <section class="consulta-catalogo" aria-labelledby="consulta-title"><div><span class="sobretitulo">¿BUSCAS ALGO MÁS?</span><h2 id="consulta-title">Cuéntanos qué necesita tu mascota.</h2><p>Confirma con nosotros el precio y la disponibilidad de cualquier producto antes de coordinar.</p></div><a class="btn" href="mailto:hola@patitasfelices.com?subject=Consulta%20sobre%20productos">Escribir por correo <span aria-hidden="true">→</span></a></section>
+  </section>
+</main>
+<footer><div class="footer-cols">
+  <div class="footer-marca"><a href="index.html" class="logo"><img src="img/logo-small.png" alt="Patitas Felices"></a><p>Todo lo que necesita para sentirse querido, cuidado y feliz.</p></div>
+  <div><h3>Explora</h3><a href="catalogo.html">Todos los productos</a><a href="nosotros.html">Nuestra tienda</a><a href="mision-vision.html">Nuestro propósito</a></div>
+  <div><h3>Tu compra</h3><a href="como-comprar.html">Cómo comprar</a><a href="catalogo.html">Consultar productos</a></div>
+  <div><h3>Hablemos</h3><p>Lima, Perú</p><a href="tel:+51969672510">969 672 510</a><a href="mailto:hola@patitasfelices.com">hola@patitasfelices.com</a></div>
+</div><div class="footer-base"><p class="copy">© 2026 Patitas Felices. Todos los derechos reservados.</p><a href="#top" class="volver-arriba">Volver arriba ↑</a></div></footer>
+<script src="carrito.js" defer></script>
+<script src="contacto.js" defer></script>
+</body>
+</html>
